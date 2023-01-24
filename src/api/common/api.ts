@@ -3,6 +3,7 @@ import { message } from 'ant-design-vue';
 import { useGlobSetting } from '/@/hooks/setting';
 const globSetting = useGlobSetting();
 const baseUploadUrl = globSetting.uploadUrl;
+//调用后台的一些接口
 enum Api {
   positionList = '/sys/position/list',
   userList = '/sys/user/list',
